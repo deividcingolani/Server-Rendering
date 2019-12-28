@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import reducers from "../client/reducers";
+import reducers from "../client/store/reducers";
 import axios from "axios";
 
 export default req => {
